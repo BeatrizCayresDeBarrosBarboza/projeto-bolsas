@@ -42,15 +42,15 @@ header {
 
 .img1 {
   margin-left: 80px;
-  width: 130px;
+  width: 270px;
 }
 
 .img2 {
-  width: 19px;
+  width: 40px;
 }
 
 .topicos {
-  font-size: 10px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   gap: 25px;
@@ -63,6 +63,33 @@ header {
     color: #06681f;
   }
 
+}
+
+.principal{
+  background-image: url(/imagens/bolsa-wallpaper.jpg);
+  height: 550px;
+  .texto{
+    padding-left: 150px;
+    padding-top: 80px;
+  button{
+    background-color: #038f26;
+    color: rgba(255, 255, 255, 0.773);
+    height: 50px;
+    width: 180px;
+    font-size: 15px;
+    border-color: transparent;
+  }
+  h1{
+    display: flex;
+    font-size: 60px;
+    width: 20px;
+    font-weight: 600;
+  }
+  p{
+    height: 67px;
+    width: 400px;
+  }
+}
 }
 
 footer{
