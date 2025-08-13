@@ -29,3 +29,47 @@ body {
 a {
   text-decoration: none;
 }
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+
+
+.img1 {
+  margin-left: 80px;
+  width: 130px;
+}
+
+.img2 {
+  width: 19px;
+}
+
+.topicos {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 25px;
+
+  a {
+    color: black;
+  }
+
+  .home {
+    color: #06681f;
+  }
+
+}
+
+footer{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #6b6b6b;
+ background-color: #dfdfdfe3;
+ box-shadow: 0px -2px 2px #dfdfdfe3;
+}
