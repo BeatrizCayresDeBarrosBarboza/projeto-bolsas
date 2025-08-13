@@ -65,38 +65,71 @@ header {
 
 }
 
-.principal{
+.principal {
   background-image: url(/imagens/bolsa-wallpaper.jpg);
   height: 550px;
-  .texto{
+
+  .texto {
     padding-left: 150px;
     padding-top: 80px;
-  button{
-    background-color: #038f26;
-    color: rgba(255, 255, 255, 0.773);
-    height: 50px;
-    width: 180px;
-    font-size: 15px;
-    border-color: transparent;
+
+    button {
+      background-color: #038f26;
+      color: rgba(255, 255, 255, 0.773);
+      height: 50px;
+      width: 180px;
+      font-size: 15px;
+      border-color: transparent;
+    }
+
+    h1 {
+      display: flex;
+      font-size: 60px;
+      width: 20px;
+      font-weight: 600;
+    }
+
+    p {
+      height: 67px;
+      width: 400px;
+    }
   }
-  h1{
-    display: flex;
-    font-size: 60px;
-    width: 20px;
-    font-weight: 600;
-  }
-  p{
-    height: 67px;
-    width: 400px;
-  }
-}
 }
 
-footer{
+.pré-footer {
+  margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+
+  .imgs {
+    gap:24px;
+    display: flex;
+    img {
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+}
+
+.pré-footer2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  a {
+    color: black;
+  }
+}
+
+footer {
   align-items: center;
   justify-content: center;
   display: flex;
   color: #6b6b6b;
- background-color: #dfdfdfe3;
- box-shadow: 0px -2px 2px #dfdfdfe3;
+  background-color: #dfdfdfe3;
+  box-shadow: 0px -2px 2px #dfdfdfe3;
 }
